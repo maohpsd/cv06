@@ -1,13 +1,58 @@
 body {
-  background: black;
-  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+  float: left;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.col-10 {
+  width: 100%;
 }
 
 .container {
-  background: black;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.container p {
-  font-size: 40px;
+.col-3 img {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 

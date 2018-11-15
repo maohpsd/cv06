@@ -1,12 +1,22 @@
 body {
-	background: black;
-	font-size: 30px;
+
+	margin: 0px;
+	padding: 0px;
 }
 
-.container {
-	background: black;
+@import "grid";
 
-	p {
-		font-size: 40px;
-	}
+.container {
+
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.col-3 img {
+
+	display: inline-block;
+	text-align: center;
+	max-width: 100%;
+	height: auto;
 }
